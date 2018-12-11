@@ -12,5 +12,10 @@ app.get('/', (req, res) => {
     res.json(data)
 });
 
+app.get('/recipes/:id', (req, res) => {    
+    let responseData = data.library.recipes[req.params.id];
+    res.send(responseData)
+})
+
 const port = process.env.port || 3000;
 app.listen(port, () => console.log(`Listening on port ${port}!`));
