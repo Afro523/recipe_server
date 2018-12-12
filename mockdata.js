@@ -5,8 +5,12 @@ const mockRecipeData = {
                 name: "Adobo Chicken",
                 ingredients: [
                     {
-                        "paprika": "1 Tbl",
-                        "olive oil": "1 Tbl"
+                        "name":"paprika",
+                        "quantity":"1 Tbl"
+                    },
+                    {
+                        "name":"olive oil",
+                        "quantity": "1 Tbl"
                     }
                 ],
                 instructions: [
