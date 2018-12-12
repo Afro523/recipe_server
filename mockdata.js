@@ -13,7 +13,11 @@ const mockRecipeData = {
                     "marinate",
                     "cook",
                     "eats"
-                ]
+                ],
+                serving:{
+                    serveLow: 2,
+                    serveHigh: 4
+                }
             }
         }
     }
